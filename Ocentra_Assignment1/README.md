@@ -22,3 +22,11 @@ Open this folder in VS Code, then open `index.html` in a browser or use the Live
 - Asked for: help understanding the project brief and creating a starter structure for three HTML/CSS pages.
 - Student changes made: [write the changes you personally make here]
 - Make sure you understand and can explain each line before your viva. Follow your teacher's AI declaration rules.
+
+
+## Technologies used
+
+- HTML5 for page structure and content.
+- CSS3 for styling and page layout.
+- VS Code for project development.
+- Git and GitHub for version control and project submission.
