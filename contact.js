@@ -2,7 +2,6 @@ const form = document.getElementById("contact-form");
 const message = document.getElementById("message");
 const counter = document.getElementById("counter");
 const result = document.getElementById("form-result");
-
 message.addEventListener("input", function () {
   counter.textContent = message.value.length + " / 200";
 });
