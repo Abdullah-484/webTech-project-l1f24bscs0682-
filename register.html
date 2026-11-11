@@ -23,7 +23,7 @@
         <section class="form-intro">
             <p class="eyebrow">PLAN YOUR JOURNEY</p>
             <h1>Hajj Package Registration</h1>
-            <p>Complete this sample form to practise HTML form fields and validation. This student project does not send or store your information.</p>
+            <p>Complete this form to practise fields and validation. It does not send or store your information.</p>
         </section>
 
         <form class="registration-form" action="#" method="get">
@@ -42,7 +42,7 @@
                     <label>Date of birth
                         <input type="date" name="birth-date" required>
                     </label>
-                    <label>Website (optional)
+                    <label>Website
                         <input type="url" name="website" placeholder="https://example.com">
                     </label>
                     <label>Number of travellers
@@ -67,7 +67,7 @@
                     <option value="vip">VIP</option>
                 </select>
 
-                <label class="full-label range-label" for="budget">Approximate budget preference (practice range): <output id="budget-value">50</output></label>
+                <label class="full-label range-label" for="budget">Approximate budget preference: <output id="budget-value">50</output></label>
                 <input id="budget" type="range" name="budget" min="1" max="100" value="50" oninput="document.getElementById('budget-value').value=this.value">
 
                 <p class="full-label">Preferred contact method</p>
@@ -81,7 +81,7 @@
                     <label><input type="checkbox" name="terms" value="accepted" required> I understand this is a practice form</label>
                 </div>
 
-                <label class="full-label">Upload a sample document (optional)
+                <label class="full-label">Upload a document
                     <input type="file" name="document">
                 </label>
                 <label class="full-label">Questions or special requirements
@@ -94,16 +94,16 @@
                 <label class="full-label">Project type
                     <input type="text" value="Student HTML/CSS practice form" readonly>
                 </label>
-                <label class="full-label">Booking reference (demo only)
+                <label class="full-label">Booking reference 
                     <input type="text" value="Not generated" disabled>
                 </label>
             </fieldset>
 
             <div class="button-row">
-                <button type="submit">Submit Practice Form</button>
+                <button type="submit">Submit Form</button>
                 <button class="reset-button" type="reset">Clear Form</button>
             </div>
-            <p class="form-note">Demo only: no booking is created and no data is sent to the agency.</p>
+            <p class="form-note">No booking is created and no data is sent to the agency.</p>
         </form>
     </main>
 
